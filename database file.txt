@@ -1,0 +1,17 @@
+create database mydb
+
+use mydb
+
+
+create table employee(
+id INT(3) NOT NULL,
+first_name varchar(20) default null,
+last_name varchar(20) default null,
+username varchar(250) default null,
+password varchar(250) default null,
+address varchar(250) default null,
+contact varchar(250) default null,
+PRIMARY KEY (id)
+);
+
+select * from employee
